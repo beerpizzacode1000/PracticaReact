@@ -1,0 +1,72 @@
+body {
+    
+  background-repeat: no-repeat;
+  background-color: bisque;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+h1,h2 {
+  text-align: center;
+  color:brown ;
+}
+
+
+img {
+  position: absolute;
+  left: 15%;
+
+}
+
+label {
+  position: absolute;
+  left: 40%;
+}
+input{
+  position: absolute;
+  left: 50%;
+}
+textarea{
+  position: absolute;
+  left: 50%;
+}
+button{
+  position: absolute;
+  left: 50%;
+  background-color: brown;
+  color: bisque;
+  border-radius: 5px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: bisque;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: brown;
+  color: white;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+
+
+
